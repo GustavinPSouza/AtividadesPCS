@@ -1,0 +1,25 @@
+a)	console.log("Ola mundo!")
+	VM623:1 Ola mundo!
+
+b)	n="Gustavo Pereira"
+	console.log(n)
+	VM623:5 Gustavo Pereira
+
+c)	x=18
+	console.log(x)
+	VM623:9 18
+
+d)	10+2
+	12
+
+e)	10-2
+	8
+
+f)	10*2
+	20
+
+g)	10/2
+	5
+
+h)	15%2
+	1

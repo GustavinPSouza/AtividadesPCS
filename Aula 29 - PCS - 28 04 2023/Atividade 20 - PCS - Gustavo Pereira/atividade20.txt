@@ -1,0 +1,23 @@
+A)	x>5
+	true
+
+B)	x<5
+	false
+
+C)	x>=10
+	true
+
+D)	x<=5
+	false
+
+E)	x==13
+	false
+
+F)	x!=1
+	true
+
+G)	x===10
+	true
+
+H)	x!==10
+	false

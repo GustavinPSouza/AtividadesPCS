@@ -1,0 +1,120 @@
+A)
+function soma(x,y) {return x+y}
+undefined
+console.log(soma(5,5))
+VM1747:1 10
+-------------------------------------
+B)
+function parimp(a){
+
+if(a%2==0){
+    console.log("verdadeiro")
+}
+
+else console.log("falso")
+}
+undefined
+parimp(100)
+VM2624:4 verdadeiro
+undefined
+parimp(15)
+VM2624:7 falso
+---------------------------------------
+C)
+function menornum(x){
+    let menor = x[0]
+    for (let i = 1; i < x.length; i++) {
+	if(x[i]<menor){
+        menor = x[i];
+    }
+}
+    return menor;
+}
+undefined
+x=[10,5,9,2]
+console.log(menornum(x))
+VM683:2 2
+-------------------------------------------
+D)
+function somanum(x){
+    soma=2;
+    for(i=1;i<x.length;i++){
+        soma += x[i];
+    }
+
+return soma;
+}
+undefined
+x=[2,1,5]
+console.log(somanum(x))
+VM1283:2 8
+-----------------------------------------------
+E)
+function contarStringsJavaScript(array) {
+  let contador = 0;
+
+  for (let i = 0; i < array.length; i++) {
+    if (array[i].toLowerCase().includes("javascript")) {
+      contador++;
+    }
+  }
+
+  return contador;
+}
+undefined
+const strings = ["JavaScript é uma linguagem de programação", "HTML e CSS são importantes para o desenvolvimento web", "Aprenda JavaScript para construir aplicações web"];
+
+const resultado = contarStringsJavaScript(strings);
+console.log(resultado); // Saída: 2
+VM156:4 2
+-----------------------------------------------
+F)
+function obterPrimeiroUltimoNome(array) {
+  const primeiroNome = array[0].split(" ")[0];
+  const ultimoNome = array[array.length - 1].split(" ").pop();
+
+  return [primeiroNome, ultimoNome];
+}
+undefined
+const nomes = ["João Silva Santos", "Maria Oliveira Souza", "Pedro Pereira"];
+
+const resultado = obterPrimeiroUltimoNome(nomes);
+console.log(resultado); // Saída: ["João", "Santos"]
+VM223:4 (2) ['João', 'Pereira']
+--------------------------------------------------
+G)
+function realizarOperacao(a, b, operacao) {
+  switch (operacao) {
+    case "+":
+      return adicao(a, b);
+    case "-":
+      return subtracao(a, b);
+    case "*":
+      return multiplicacao(a, b);
+    case "/":
+      return divisao(a, b);
+    default:
+      return "Operação inválida.";
+  }
+}
+undefined
+const num1 = 10;
+const num2 = 5;
+const operacao = "+";
+
+const resultado = realizarOperacao(num1, num2, operacao);
+console.log(resultado);
+VM301:6 15
+----------------------------------------------------
+H)
+function calcularMedia(lista) {
+    let soma = 0;
+    for (let i = 0; i < lista.length; i++) {
+        soma += lista[i];
+    }
+    return soma / lista.length;
+}
+undefined
+let numeros = [2, 4, 6, 8, 10];
+console.log(calcularMedia(numeros))
+VM972:2 6

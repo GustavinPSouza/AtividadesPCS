@@ -1,0 +1,108 @@
+A)
+console.log("1, 2, 3")
+VM2061:1 1, 2, 3
+
+B)
+x=prompt("Informe um numero."); y=prompt("Informe um numero."); z=prompt("Informe um numero.")
+
+console.log(x, y, z)
+VM2449:3 1 2 3
+
+C)
+x=prompt("Informe um numero.");
+x = parseInt(x);
+y=prompt("Informe um numero.");
+y = parseInt(y);
+z=prompt("Informe um numero.");
+z = parseInt(z);
+
+soma=x + y + z
+
+media=soma/3
+
+console.log("A média dos tres numeros informados é: " + media)
+VM3362:12 A média dos tres numeros informados é: 12.333333333333334
+
+D)
+f=prompt("Informe sua temperatura em Fahrenheit")
+
+f=parseInt(f)
+
+c=((f - 32) * 5)/9
+
+console.log("Sua temperatura convertida para celsius é: " + c)
+
+VM3773:7 Sua temperatura convertida para celsius é: 37.77777777777778
+
+E)
+x=prompt("Informe o primeiro numero da soma: ");
+x=parseInt(x)
+
+y=prompt("Informe o primeiro numero da soma: ");
+y=parseInt(y)
+
+soma=x + y
+
+if(soma>100) console.log("A soma desses numeros é: " + soma)
+VM4250:9 A soma desses numeros é: 110
+
+F)
+x=prompt("Informe um numero: ");
+x=parseInt(x)
+
+result= x%2
+
+if(result==0) console.log("O numero informado é par."); else("O numero informado é impar.")
+VM4954:6 O numero informado é par.
+
+G)
+senha=prompt("Informe a senha: ");
+senha=parseInt(senha)
+
+if(senha==1234) console.log("Senha correta"); else("Senha incorreta")
+VM5344:4 Senha correta
+
+H)
+idade=prompt("Informe sua idade: ");
+idade=parseInt(idade)
+
+if(idade>=18) console.log("Você é maior de idade"); else("Você é maior de idade")
+VM5744:4 Você é maior de idade
+
+I)
+nota1=prompt("Informe sua primeira nota: ");
+nota1=parseInt(nota1)
+
+nota2=prompt("Informe sua primeira nota: ");
+nota2=parseInt(nota2)
+
+media = (nota1 + nota2) / 2
+
+if(media>=7) console.log("Aprovado"); else ("Reprovado")
+
+VM6316:9 Aprovado
+
+J)
+"Iforme um numero: ");
+num=parseInt(num)
+
+if(num>0) console.log("O numero informado é positivo.");
+else if(num==0) console.log("O numero informado é 0.");
+else if(num<0) console.log("O numero informado é negativo.")
+
+VM6990:4 O numero informado é positivo.
+
+K)
+numero=prompt("informe o primeiro numero: ");
+numero=parseInt(numero)
+
+numero1=prompt("Informe o segundo numero: ");
+numero1=parseInt(numero1)
+
+numero2=prompt("Informe o terceiro numero: ");
+numero2=parseInt(numero2)
+
+if(numero> numero1 && numero>numero2) console.log("O maior numero é: " + numero);
+else if(numero1> numero && numero1>numero2) console.log("O maior numero é: " + numero1);
+else if(numero2> numero && numero2>numero1) console.log("O maior numero é: " + numero2);
+VM7934:12 O maior numero é: 30

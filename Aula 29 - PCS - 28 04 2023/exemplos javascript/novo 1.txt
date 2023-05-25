@@ -1,0 +1,216 @@
+x=10
+10
+--------------------------------------------
+x==10
+true
+--------------------------------------------
+x===10
+true
+--------------------------------------------
+x!=10
+false
+--------------------------------------------
+x!==10
+false
+--------------------------------------------
+x>10
+false
+--------------------------------------------
+x>=10
+true
+--------------------------------------------
+x<10
+false
+--------------------------------------------
+x<=10
+true
+--------------------------------------------
+z=10
+10
+--------------------------------------------
+z="10"
+'10'
+--------------------------------------------
+x==z
+true
+--------------------------------------------
+x!=z
+false
+--------------------------------------------
+x===z
+false
+--------------------------------------------
+x!==z
+true
+--------------------------------------------
+10=="10"
+true
+--------------------------------------------
+"10"==10
+true
+--------------------------------------------
+10==="10"
+false
+--------------------------------------------
+10!=="10"
+true
+--------------------------------------------
+0==""
+true
+--------------------------------------------
+0===""
+false
+--------------------------------------------
+0==false
+true
+--------------------------------------------
+1==true
+true
+--------------------------------------------
+2==true
+false
+--------------------------------------------
+""==false
+true
+--------------------------------------------
+undefined==null
+true
+--------------------------------------------
+0==null
+false
+--------------------------------------------
+x=10
+10
+--------------------------------------------
+y=20
+20
+--------------------------------------------
+x>5&&y>15
+true
+--------------------------------------------
+x>5||y>25
+true
+--------------------------------------------
+x>5&&y>25
+false
+--------------------------------------------
+x>15||y>25
+false
+--------------------------------------------
+!(y>25)
+true
+--------------------------------------------
+!y>25
+false
+--------------------------------------------
+form_ok=true
+true
+if (form_ok) comsole.log("dados serão enviados!")
+dados serão enviados!
+--------------------------------------------
+form_ok=false
+false
+if (form_ok) console.log("dados serão enviados!")
+undefined
+--------------------------------------------
+form_ok=true
+true
+if(form_ok)console.log("dados serão enviados!");else alert("preechimento incorreto")
+VM628:1 dados serão enviados!
+undefined
+--------------------------------------------
+form_ok=false
+false
+if(form_ok)console.log("dados serão enviados!");else alert("preechimento incorreto")
+undefined
+--------------------------------------------
+x=10
+10
+y=20
+20
+if(x>5&&y>15){x++;y++;}else{x--,y--}
+20
+x
+11
+y
+21
+--------------------------------------------
+peso=8
+8
+if(peso<=10){console.log("pode embarcar")}
+else if(peso<=23){console.log("Deve despachar")}
+else{console.log("vai pagar por excesso")}
+VM1511:1 pode embarcar
+undefined
+--------------------------------------------
+peso=12
+12
+if(peso<=10){console.log("pode embarcar")}
+else if(peso<=23){console.log("Deve despachar")}
+else{console.log("vai pagar por excesso")}
+VM1533:2 Deve despachar
+undefined
+--------------------------------------------
+peso=25
+25
+if(peso<=10){console.log("pode embarcar")}
+else if(peso<=23){console.log("Deve despachar")}
+else{console.log("vai pagar por excesso")}
+VM1557:3 vai pagar por excesso
+--------------------------------------------
+x=5
+5
+x>=10 ? "maior ou igual a 10":"menor que 10"
+'menor que 10'
+msg=x>=10?"maior ou igual a 10":"menor que 10"
+'menor que 10'
+--------------------------------------------
+function multiplica (a,b) {return a*b}
+
+
+undefined
+multiplica(2,10)
+20
+multiplica(3,20)
+60
+multiplica(1.2,-5)
+-6
+multiplica(10,0.5)
+5
+--------------------------------------------
+function imprime_texto(texto, vezes){
+    str='';
+    for (i=1; i<=vezes; i++){
+        str= str + texto
+    }
+    console.log(str)
+}
+undefined
+imprime_texto("oi", 2)
+VM969:6 oioi
+imprime_texto('A',3)
+VM1099:6 AAA
+undefined
+imprime_texto('LA', 5)
+VM1099:6 LALALALALA
+undefined
+imprime_texto('.',100)
+VM1099:6 ....................................................................................................
+--------------------------------------------
+function imprime_texto(texto, vezes=1){
+    str='';
+    for (i=1; i<=vezes; i++){
+        str= str + texto
+    }
+    console.log(str)
+}
+undefined
+imprime_texto('.')
+VM1260:6 .
+undefined
+imprime_texto('LA')
+VM1260:6 LA
+undefined
+imprime_texto('LA',2)
+VM1260:6 LALA
+---------------------------------------------

@@ -1,0 +1,77 @@
+body{/*Parte da página (body) que sera modificada*/
+    background-color: rgb(233, 225, 216);/* Define a cor do fundo da página */
+    display: flex;/* Deixa o corpo da página flexivel */
+    flex-direction: column;/**/
+    flex-wrap: nowrap;
+    align-content: center;/* Alinha todo o conteudo da página no centro */
+    justify-content: center;/* Justifica todo o conteudo da página */
+    align-items: center;/* Alinha todos os itens que a página possui no centro da página */
+    font-family:Arial, Helvetica, sans-serif;/* Define a fonte que sera usada para os textos da página */
+}
+
+section{/*Parte da página (section) que sera modificada*/
+    
+    display: flex;/* Deixa a seção flexivel */
+    background-color: rgb(211, 211, 211);/* Define a cor do fundo da seção */
+    border-radius: 20px;/* Adiciona uma raio na borda definido como 20 pixels */
+    width: 60%;/* Define o espaço que a seção oculpa na página */
+    flex-direction: column;/* Define a direção dos elementos filhos como coluna */
+    flex-wrap: nowrap;/* Impede que os elementos filhos sejam quebrados em varias linhas */
+    align-content: center;/* Alinha todo o conteudo da seção no centro */
+    justify-content: center;/* Justifica todo o conteudo da seção */
+    align-items: center;/* Alinha todos os itens que a seção possui no centro da seção */
+
+}
+
+.sectionTwo{/*Parte da página (section definida como sectionTwo para se diferebciar das outras) que sera modificada*/
+    display: flex;/* Deixa o corpo da seção flexivel */
+    background-color: rgb(211, 211, 211);/* Define a cor do fundo da seção */
+    border-radius: 20px;/* Adiciona uma raio na borda definido como 20 pixels */
+    width: 60%;/* Define o espaço que a seção oculpa na página */
+    flex-direction: column;/* Define a direção dos elementos filhos como coluna */
+    flex-wrap: wrap;/* Define que os itens dentro de um conteiner flexivel quando a espaço extra na linha */
+    align-content: center;/* Alinha todo o conteudo da seção no centro */
+    justify-content: flex-start;/* Justifica todo o conteudo da seção */
+    align-items: flex-start;/* Alinha os itens dentro de um conteiner flexivel ao inicio do eixo transversal */
+}
+
+input{/*Parte da página (input) que sera modificada*/
+    background-color: white;/* Define a cor de fundo do input como branco */
+    border: 0;/* Define o tamanho da borda */
+    border-radius: 12px;/* Adiciona uma raio na borda definido como 12 pixels */
+    padding: 4px;
+    margin: 5px;/* Define o espaço que a margem vai oculpar como 5 pixels */
+    width: 70%;/* Define o espaço que o input vai oculpar da pagina */
+    height: 25px;/* Define a altura do input em 25 pixels */
+}
+
+button{/*Parte da página (button) que sera modificada*/
+    background-color: rgb(66, 66, 128);/* Define a cor do fundo do botão */
+    border-color: white;/* Define a cor da borda do botão como branca*/
+    border-radius: 30px;/* Adiciona uma raio na borda definido como 30 pixels */
+    padding: 14px;
+    margin: 13px;/* Define o espaço que a margem vai oculpar como 13 pixels */
+    color: white;/* Define a cor da fonte como branco */
+}
+
+label{/*Parte da página (label) que sera modificada*/
+    padding: 15px;
+    font-weight: bold;
+    color: rgb(0, 15, 65);/* Define a cor da fonte */
+	margin-right: 90px;/* Cria um espaço entre a margem direita da página de 90 pixels podendo ser ajustada a qualquer momento */
+	text-align: left;/* Alinha o texto na esquerda */
+}
+
+form{/*Parte da página (form) que sera modificada*/
+    padding: 15px;
+    font-weight: bold;
+    color: rgb(0, 15, 65);/* Define a cor da fonte */
+    font-size: small;/* Define o tamanho da fonte podendo ser modificada a qualquer momento */
+    width: 80%;/* Define o espaço que o input vai oculpar da pagina */
+    display: flex;/* Deixa a seção flexivel */
+    flex-direction: column;/* Define a direção dos elementos filhos como coluna */
+    flex-wrap: nowrap;/* Define que os itens dentro de um conteiner flexivel quando a espaço extra na linha */
+    align-content: space-between;/* Alinha o conteudo deixando um espaço entre eles */
+    justify-content: center;/*Justifica o conteudo no centro*/
+    align-items: center;/* Alinha os itens no centro */
+}

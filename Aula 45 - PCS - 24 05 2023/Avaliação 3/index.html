@@ -1,0 +1,50 @@
+<!DOCTYPE htm><!-- Define o tipo de documento como HTML -->
+<html><!-- Inicio do elemento html -->
+    <head><!-- Inicio do elemento head -->
+		<script src="javascript.js"></script><!-- Essa linha importa um arquivo JavaScript externo chamado "javascript.js", que será executado na página. -->
+        <link rel="stylesheet" type="text/css" href="style.css"/><!-- Essa linha importa um arquivo de folha de estilo CSS externo chamado "style.css", que será aplicado ao documento HTML. -->
+    </head><!-- Fim do elemento head. -->
+    <body><!-- Início do elemento body, que contém todo o conteúdo visível da página. -->
+        <section><!-- Início de uma seção na página. -->
+            <h1>Avaliação 03 - PCS</h1><!-- Cabeçalho de nível 1 que exibe o texto "Avaliação 03 - PCS". -->
+        </section><!-- Fim da seção. -->
+        <br><!-- Inserção de uma quebra de linha. -->
+        <section>
+        <br>
+        <form id="formCadastro"><!-- Início de um formulário com o atributo "id" definido como "formCadastro". -->
+            Marca:<!-- Texto que aparece em cima de cada input para indicar o que deve ser inserido naquele campo. -->
+            <br>
+            <input type="text" id="txtMarca" required><!-- Label e campo de entrada de texto para a "Marca" do carro. O campo é obrigatório (required) e possui um atributo "id" definido como "txtMarca". -->
+            <br>
+            <br>
+			Modelo:
+            <br>
+            <input type="text" id="txtModelo" required><!-- Label e campo de entrada de texto para a "Modelo" do carro. O campo é obrigatório (required) e possui um atributo "id" definido como "txtModelo". -->
+            <br>
+            <br>
+            Ano:
+            <br>
+            <input type="text" id="txtAno" required><!-- Label e campo de entrada de texto para a "Ano" do carro. O campo é obrigatório (required) e possui um atributo "id" definido como "txtAno". -->
+            <br>
+            <br>
+            Cor:
+            <br>
+            <input type="text" id="txtColor" required><!-- Label e campo de entrada de texto para a "Cor" do carro. O campo é obrigatório (required) e possui um atributo "id" definido como "txtColor". -->
+            <br>
+            <br>
+            <button type="submit" onclick="preencheObjeto">Adiciona Carro</button><!-- Um botão de envio (submit) que quando clicado executará a função "preencheObjeto". O texto exibido no botão é "Adiciona Carro". -->
+        <br>
+        </section>
+        <br>
+        <section class="sectionTwo"><!-- Início de uma seção na página classificada como "sectionTwo". -->
+            <br>
+            <button onclick="mostrarCarro()">Mostrar Todos</button><!-- Um botão de envio que quando clicado executará a função "mostrarCarro". O texto exibido no botão é "Mostrar Todos". -->
+            <br>
+            <label id="lblMostrarCarro">...</label><!-- Um rótulo (label) com o atributo "id" definido como "lblMostrarCarro". Inicialmente, o rótulo exibirá três pontos ("..."). -->
+            <br>
+        </section>
+    </body><!-- Fim do elemento body. -->
+</html><!-- Fim do elemento html. -->
+
+
+<!-- Poderia deixar meu código funcional pois ele esta com algum erro que eu não soube identificar e talvez mudar algumas coisas no estilo. -->
